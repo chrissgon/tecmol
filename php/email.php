@@ -13,10 +13,10 @@ try {
     // CONFIGURÇÕES
     $mail->IsSMTP();
     // $mail->SMTPDebug = 2;
-    $mail->Host = "smtp.tecmol.com.br";
+    $mail->Host = "smtp.gmail.com";
     $mail->SMTPAuth = true;
-    $mail->Username = "contato@tecmol.com.br";
-    $mail->Password = "7qPgRqeioK";
+    $mail->Username = "testedeemail162";
+    $mail->Password = "testeteste";
     $mail->SMTPSecure = "ssl";
     $mail->Port = 465;
     $mail->CharSet = 'UTF-8';
